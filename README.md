@@ -36,8 +36,8 @@ module.exports = function (flit) {
 	// load all flit plugins matching the `flit-*` pattern
 	require('load-flit-plugins')(flit);
 
-	flit.initConfig({});
-	flit.registerTask('default', []);
+	flit.init({});
+	flit.task('default', []);
 }
 ```
 

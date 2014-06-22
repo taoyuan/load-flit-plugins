@@ -24,5 +24,5 @@ module.exports = function (flit, options) {
         return result.concat(Object.keys(config[prop] || {}));
     }, []);
 
-    multimatch(names, pattern).forEach(flit.loadNpmPlugins);
+    multimatch(names, pattern).forEach(flit.loadNpmPlugin);
 };

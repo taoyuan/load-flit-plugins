@@ -1,5 +1,7 @@
 # load-flit-plugins
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/load-flit-plugins.svg)](https://greenkeeper.io/)
+
 > Load multiple flit plugins using globbing patterns
 
 Usually you would have to load each task one by one, which is unnecessarily cumbersome.
